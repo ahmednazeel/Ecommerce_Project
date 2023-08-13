@@ -1,0 +1,36 @@
+:root{
+    --transition-delay:0.5s;
+    --bgHeader:#e3e6f3;
+    --text-color:#1a1a1a;
+    --text-hover:#088178;
+    --border-color:#cce7d0;
+  }
+
+#hero-shop-page{
+    background-image: url('../img/banner/b1.jpg');
+    background-repeat: no-repeat;
+}
+#hero-shop-page h2,
+#hero-shop-page p{
+    color: white;
+}
+.pagination{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.pagination a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    color: white;
+    background-color:var(--text-hover);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}

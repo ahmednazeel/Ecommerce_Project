@@ -1,0 +1,48 @@
+#hero-about-page{
+    background-image:url("../img/about/banner.png");
+}
+#hero-about-page p{
+    color: white;
+}
+.we-are{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.we-are > div{
+    width: 50%;
+}
+.we-are .image img{
+    width: 80%;
+    margin: auto;
+}
+.we-are .info p{
+    width: 100%;
+    line-height: 1.6;
+}
+
+.app h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.app h2 a{
+    text-decoration: underline;
+    color: #088178;
+}
+.app .download video{
+    width: 100%;
+    border-radius: 20px;
+}
+@media (max-width:1110px) {
+    .we-are{
+        flex-direction: column;
+    }
+    .we-are > div{
+        width: 100%;
+    }
+    .we-are .image img{
+        display: none;
+    }
+
+}

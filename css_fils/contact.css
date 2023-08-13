@@ -1,0 +1,134 @@
+#hero-contact-page{
+    background-image:url('../img/banner/b17.jpg') ;
+}
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-details > div{
+    flex-basis: 50%;
+}
+.details{
+    width: 40%;
+}
+.details p{
+    margin: 15px 0;
+}
+.details h2,
+.form-inputs h2{
+    font-size: 22px;
+    margin: 0;
+    color: black;
+    line-height: 1.5;
+}
+.details h3{
+    margin: 15px 0;
+}
+.details ul li{
+    padding: 15px 0;
+    font-size: 15px;
+    color: #777;
+} 
+.details ul li i{
+    margin-right: 10px;
+} 
+.map{
+    width: 55%;
+} 
+.map iframe{
+    width: 100%;
+} 
+@media (max-width:991px) {
+    .contact-details{
+        flex-direction: column;
+    }
+    .contact-details > div{
+        width: 100%;
+    }
+    .details{
+        text-align: center;
+        order: 2;
+    }
+}
+/* Start contact section */
+.contact-message{
+    border: 1px solid #ddd;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.form-inputs{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 65%;
+}
+.form-inputs input,
+.form-inputs textarea{
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.form-inputs input{
+    margin: 10px 0;
+    outline-color:#59b4ff ;
+}
+.form-inputs textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    outline-color: #a19f9f;
+    resize:vertical;
+}
+.form-inputs button{
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #141212;
+    margin: auto;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.form-inputs button:hover{
+    background-color: #59b4ff;
+}
+.people{
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.people-info img{
+    width: 50px;
+    height: 50px;
+}
+.people-info span{
+    display: block;
+    margin: 5px 0;
+}
+@media (max-width:767px) {
+    .contact-message{
+        flex-direction: column;
+    }
+    .form-inputs{
+        width: 100%;
+    }
+    .people-testimonails{
+        display: none;
+    }
+}
